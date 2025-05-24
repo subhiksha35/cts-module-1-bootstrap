@@ -1,0 +1,51 @@
+1. css/ Folder – Cascading Style Sheets
+Purpose:
+This folder contains all the compiled CSS files needed to style your HTML components using Bootstrap.
+
+Key Files:
+
+bootstrap.css – Full, unminified version of Bootstrap's CSS. Easier to read for development.
+
+bootstrap.min.css – Minified version (compressed) for production to reduce file size and load faster.
+
+bootstrap.css.map & bootstrap.min.css.map – Source maps used by browser dev tools to map minified styles back to the original code for debugging.
+
+Usage:
+Link these files in your HTML to apply Bootstrap styles (buttons, layout, typography, etc.)
+
+2. js/ Folder – JavaScript Files
+Purpose:
+Contains the JavaScript files that power Bootstrap’s interactive components such as modals, tooltips, dropdowns, collapses, and more.
+
+Key Files:
+
+bootstrap.bundle.js – Includes Bootstrap JS plus Popper.js (required for tooltips/popovers).
+
+bootstrap.bundle.min.js – Minified version for production use.
+
+bootstrap.js – Bootstrap’s JS without Popper.js.
+
+bootstrap.min.js – Minified version without Popper.js.
+
+Usage:
+Include these files in your HTML (typically at the end of the body) to enable JavaScript-based features.
+
+3. icons/ Folder – Bootstrap Icons
+Purpose:
+If you download Bootstrap Icons separately from https://icons.getbootstrap.com/, you’ll get this folder.
+
+Key Files:
+
+SVG icon files – Individual scalable vector icons.
+
+bootstrap-icons.css – CSS file to easily use icons with class names.
+
+Font files if using as a font.
+
+Usage:
+Use with HTML like:
+
+html
+Copy code
+<i class="bi bi-alarm"></i>
+Or inline SVGs for more control over size/color.
